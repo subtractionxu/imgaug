@@ -17,7 +17,7 @@ Suppose you have a project called *YourProject* in need for data augmentation.
 1. Clone this repository into *YourProject*  
 2. Write yourself a test script under the , e.g. *test.py*  
 Your directory should be like this:  
-*YourProject*
+*YourProject*  
     --imgaug  
     --*test.py*  
 3. In *test.py*, write:  
