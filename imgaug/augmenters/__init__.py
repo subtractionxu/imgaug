@@ -9,3 +9,5 @@ from .meta import *
 from .overlay import *
 from .segmentation import *
 from .size import *
+from .spot import *
+from .flare import *
