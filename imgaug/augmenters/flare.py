@@ -38,7 +38,7 @@ class Flare(Augmenter): # pylint: disable=locally-disabled, unused-variable, lin
         for n in sm.xrange(nb_images):
             sig = int(samples[n])
             if sig > 1 + self.eps:
-                for i in range(1,sig):
+                for i in range(1,10):
                     x0=random.randint(0,images[n].shape[0]-2)
                     x1=random.randint(x0+2,images[n].shape[0])
                     y0=random.randint(0,images[n].shape[1]-2)
