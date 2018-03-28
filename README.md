@@ -15,8 +15,8 @@ The two paraters of *sigma* indicates the uppper and lower boundaries of the rad
 
 Suppose you have a project called *YourProject* in need for data augmentation.  
 1. Clone this repository into *YourProject*  
-2. Write yourself a test script under the , e.g. *test.py*  
-Your directory should be like this:  
+2. Write yourself a test script, e.g. *test.py*, under the directory  
+Your directory should be like this: 
 *YourProject*  
     --imgaug  
     --*test.py*  
